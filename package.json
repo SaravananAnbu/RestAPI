@@ -1,0 +1,28 @@
+{
+  "name": "webapi",
+  "version": "1.0.0",
+  "description": "RestAPI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec babel-node -- src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SaravananK",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mysql2": "^1.6.5",
+    "raven": "^2.6.4",
+    "sequelize": "^5.3.5",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "nodemon": "^1.18.11"
+  }
+}
